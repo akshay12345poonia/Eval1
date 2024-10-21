@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puma Palermo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Arial", sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 30px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .user-options {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .user-options input {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .user-options i {
+            font-size: 20px;
+            color: white;
+        }
+
+        .featured-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+            background-color: #f5f5f5;
+        }
+
+        .promo-text h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+
+        .promo-text p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+
+        .bttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .secondary-btn {
+            background-color: transparent;
+            color: #000;
+            border: 2px solid #000;
+        }
+
+        .promo-image img {
+            width: 100px;
+            max-width: 600px;
+        }
+
+        .product-section {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .product-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .product-item {
+            width: 200px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .product-item img {
+            width: 100%;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="https://app.puma.com/web-download-in" alt="Puma Logo" class="Logo">
+            <nav>
+                <ul>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">MotorSport</a></li>
+                    <li><a href="#">Fenty X Puma</a></li>
+                    <li><a href="#">Collaborations</a></li>
+                    <li><a href="#">Sports</a></li>
+                    <li><a href="#">Sale</a></li>
+                    <li><a href="#">Bulk Savings</a></li>
+                </ul>
+            </nav>
+            <div class="user-options">
+                <input type="text" placeholder="Search">
+                <i class="fasfa-heart"></i>
+                <i class="fasfa-shopping-cart"></i>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="featured-section">
+            <div class="promo-text">
+                <h1>Palermo</h1>
+                <p>Rewrite the Classics</p>
+                <div class="buttons">
+                    <a href="#" class="btn">Shop Now</a>
+                    <a href="#" class="btn secondary-btn">Explore Style Guide</a>
+                </div>
+            </div>
+            <div class="promo-image">
+                <img src="https://in.puma.com/in/en/collaborations/collaborations-select/collaborations-select-palermo" alt="palermo Collection">
+            </div>
+        </section>
+        <section class="product-section">
+            <h2>Discover Palermo Collection</h2>
+            <div class="product-gallery">
+                <div class="product-item">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/392290/04/sv01/fnd/IND/fmt/png/Caven-2.0-Unisex-Sneakers" alt="Palermo shoe 1">
+                </div>
+                <div class="product-item">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/399844/01/sv01/fnd/IND/fmt/png/PUMA-Court-Shatter-Low-Unisex-Sneakers" alt="Palermo shoe 2">
+                </div>
+                <div class="product-item">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/308427/01/sv01/fnd/IND/fmt/png/Mercedes-AMG-Petronas-F1%C2%AE-Speedfusion-OG-Unisex-Motorsport-Sneakers" alt="Palermo shoe 3">
+                </div>
+                <div class="product-item">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_450,h_450/global/399614/01/sv01/fnd/IND/fmt/png/Caven-2.0-Year-Of-Sport-Unisex-Sneakers" alt="palermo shoe 4">
+                </div>
+            
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Puma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
